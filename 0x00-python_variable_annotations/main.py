@@ -71,7 +71,12 @@
 # print(to_kv("school", 0.02))
 
 # Task 8 case
-make_multiplier = __import__('8-make_multiplier').make_multiplier
-print(make_multiplier.__annotations__)
-fun = make_multiplier(2.22)
-print("{}".format(fun(2.22)))
+# make_multiplier = __import__('8-make_multiplier').make_multiplier
+# print(make_multiplier.__annotations__)
+# fun = make_multiplier(2.22)
+# print("{}".format(fun(2.22)))
+
+# Task 9 case
+element_length =  __import__('9-element_length').element_length
+
+print(element_length.__annotations__)
