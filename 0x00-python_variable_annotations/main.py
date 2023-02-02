@@ -64,8 +64,14 @@
 # print("sum_mixed_list(mixed) returns {} which is a {}".format(ans, type(ans)))
 
 # Task 7 case
-to_kv = __import__('7-to_kv').to_kv
+# to_kv = __import__('7-to_kv').to_kv
 
-print(to_kv.__annotations__)
-print(to_kv("eggs", 3))
-print(to_kv("school", 0.02))
+# print(to_kv.__annotations__)
+# print(to_kv("eggs", 3))
+# print(to_kv("school", 0.02))
+
+# Task 8 case
+make_multiplier = __import__('8-make_multiplier').make_multiplier
+print(make_multiplier.__annotations__)
+fun = make_multiplier(2.22)
+print("{}".format(fun(2.22)))
