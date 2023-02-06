@@ -23,6 +23,3 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         result = await task
         fArray.append(result)
     return fArray
-
-
-
