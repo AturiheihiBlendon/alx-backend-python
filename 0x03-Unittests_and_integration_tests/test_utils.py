@@ -26,6 +26,7 @@ class TestAccessNestedMap(unittest.TestCase):
         with self.assertRaises(KeyError):
             access_nested_map(nested_map, path)
 
+
 class TestGetJson(unittest.TestCase):
     ''' class to test the get_json function '''
     @parameterized.expand([
@@ -44,6 +45,7 @@ class TestGetJson(unittest.TestCase):
         with patch('requests.get') as MockClass:
             MockClass.return_value = Mocked()
             self.assertEqual(get_json(test_url), test_payload)
+
 
 class TestMemoize(unittest.TestCase):
     ''' test class for the memoize function '''
